@@ -11,6 +11,7 @@ categories: java
 这块代码的作用是比较app是否需要更新:
 优化前的代码
         
+```java
 
 		if (sue < 0){
 			if (myversion.getCoerciveUpdate().equals("0")){
@@ -40,7 +41,11 @@ categories: java
 			}
 		}
 
+```
+
 优化后的代码：
+
+```java
 
 		//不需要更新
 		if (sue >= 0 ){
@@ -73,4 +78,6 @@ categories: java
 
 		//非强制更新
 		showUpdateDialog(NO_FORCIBLY);
+```
+
 代码经过优化后，if-else嵌套层级变浅了。
