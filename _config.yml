@@ -73,5 +73,6 @@ stylus:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/hellofriday/hellofriday.github.com.git
+  #repository: https://github.com/hellofriday/hellofriday.github.com.git
+  repository: git@github.com:hellofriday/hellofriday.github.com.git
   branch: gh-pages
